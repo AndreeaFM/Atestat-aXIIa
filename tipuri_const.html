@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+
+<title>Constelatii</title>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" 
+rel="stylesheet"> <!--link pt google fonts-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css" >
+<link rel="shortcut icon" type="png" href="constellation.png">
+<link rel="shortcut icon" type="png" href="index.html">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+.header {
+  padding: 10px;
+  text-align: center;
+  background:#896c93;
+  color: white;
+  font-size: 20px;
+}
+<!--galerie de img-->
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+width: 150px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#896c93 ;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 300px;
+  height: auto;
+}
+
+div.desc {
+  padding: 3px;
+  text-align: center;
+}
+<!--java marire imagine-->
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+<!---->
+
+img:hover{
+opacity:0.5;
+}
+</style>
+
+</HEAD>
+
+<BODY text="white">
+
+<!--header--> 
+<div class="header">
+<p1 class="dotted">Cele mai importante constelatii</p1><br>
+<h1><b>Ghidul constelatiilor</b></h1>
+</div>
+</header>
+<!--pana aici-->
+<IMG SRC="constellation.png" ALT="constelattion" class="my_img" WIDTH=80 HEIGHT=80>
+
+
+<!--meniu-->
+<div class="navbar">
+  <a href="index.html">Acasa</a>
+  <a href="curiozitati.html">Curiozitati</a>
+  <div class="dropdown">
+    <button class="dropbtn">Constelatii 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tipuri_const.html">Tipuri</a>
+      <a href="imp_in_zodiac.html">Importanta in zodiac</a>
+      <a href="legende.html">Legendele zodiilor</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Diverse
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+		<a href="stele.html">Stele</a>
+      <a href="astronomi-renumiti.html">Astronomi renumiti</a>
+      <a href="orientare.html">Orientare pe bolta cereasca</a>
+      <a href="harta.html">Harta cerului</a>
+	  <a href="astro.html">Detalii astronomice</a>
+    </div> 
+
+</div>
+<a href="quiz.html">Quiz</a>
+<a href="galerie.html">Galerie</a>
+</div>	
+<!--/meniu-->
+
+<br><br><br>
+<font size="5px"><b><center> Despre &nbsp;constelatii</center></b></font>
+<p>De când Umanitatea a început să recunoască tipare în stele, am considerat necesar să le dăm un înțeles, prin conectarea celor mai strălucitoare, de la punct la punct și asociindu-le apoi personaje ale miturilor și legendelor. Fie că sunt reprezentări ale unor animale, ale unor eroi sau figuri fanteziste – aceste prime etichete puse pe tiparele stelare au reprezentat începutul constelațiilor.</p>
+
+<font size="5px"><b> Primele constelatii</b></font>
+<p>Către secolul al II-lea, astronomul grec Ptolemeu a decis că este timpul unei activități serioase pentru unificarea acestor asterisme și asocierea unor nume pentru constelații. Activitatea sa în acest sens este numită Almageste – un tratat matematic și astronomic propunând mișcările complexe ale stelelor și căile planetelor cunoscute. Lucrarea în sine a fost genială, acoperind problematica mișcărilor diurne ale obiectelor cerești, măsurarea timpului zilei, determinarea latitudinii, punctele în care Soarele este vertical, umbrele ceasului solar la echinocții și solstiții, și alte observații care se schimbă odată cu poziția observatorului. A acoperit mișcarea planetară retrogradă, mișcarea Lunii, paralaxa lunară, mișcarea apogeului lunar, eclipsele, precesia echinocțiilor, mișcarea Soarelui și a stelelor fixe. Dar, foarte important, această lucrare ne-a dat primele 48 de constelații oficiale. Și, credeți sau nu, cele 48 de constelații descrise de Ptolemeu sunt încă utilizate astăzi de către astronomi.</p>
+
+<center><img id="myImg" src="images/harta_pto.jpg" alt="Harta lui Ptolemeu" width="500" height="auto">
+</center>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<p>Totuși era o mică problemă cu Almageste și constelațiile sale. Hărțile pe care Ptolemeu le-a utilizat proveneau din vremea lui Hipparchus și a inclus numai stelele ce puteau fi văzute din poziția acestuia. Nu a trecut mult până ce această lucrare a fost îmbunătățită de către cultura islamică, ai cărei astronomi au descris observațiile asupra stelelor, poziției lor, magnitudinii, strălucirii și culorii, adăugând chiar și desene pentru fiecare constelație. Prin urmare, chiar și astăzi unele dintre cele mai strălucitoare stele catalogate sunt menționate încă prin numele lor arabe.</p>
+<font size="5px"><b>Ce&nbsp;este&nbsp;o&nbsp;constelatie?</b></font>
+<p>O constelație este un tipar de stele recognoscibil care are granițe oficiale și o desemnare oficială. Există 88 de asemenea constelații recunoscute oficial.Pentru a fi o constelație trebuie să aibă granițe oficiale și o desemnare oficială!</p>
+
+<font size="5px"><b><center> Lista &nbsp; celor &nbsp; mai &nbsp; importante &nbsp;constelatii</center></b></font>
+<div class="gallery">
+  <a target="_blank" href="images/acvila.jpg">
+    <img src="images/acvila.jpg" alt="acvila" width="150px" height="150px">
+  </a>
+  <div class="desc">Aquila-Vulturul</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/andromeda.jpg">
+    <img src="images/andromeda.jpg" alt="acvila" width="150px" height="150px">
+  </a>
+  <div class="desc">Andromeda</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/vizitiul2.jpg">
+    <img src="images/vizitiul2.jpg" alt="boarul" width="150px" height="150px">
+  </a>
+  <div class="desc">Bootes-Boarul</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/dog.jpg">
+    <img src="images/dog.jpg" alt="canis" width="150px" height=150px">
+  </a>
+  <div class="desc">Canis major-Cainele mare</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="images/cassio.png">
+    <img src="images/cassio.png" alt="cassio" width="150px" height=150px">
+  </a>
+  <div class="desc">Cassiopeia, mama Andromedei</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/crux.jpg">
+    <img src="images/crux.jpg" alt="acvila" width="150px" height="150px">
+  </a>
+  <div class="desc">Crux-Crucea sudului</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cygnus.jpeg">
+    <img src="images/cygnus.jpeg" alt="cygnus" width="150" height="150">
+  </a>
+  <div class="desc">Cygnus-Lebada(Crucea nordului)</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/dragon.jpg">
+    <img src="images/dragon.jpg" alt="acvila" width="150px" height="150px">
+  </a>
+  <div class="desc">Draco-Dragonul</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/lyra.png">
+    <img src="images/lyra.png" alt="lira" width="150" height="150">
+  </a>
+  <div class="desc">Lyra-Lira</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/lup.gif">
+    <img src="images/lup.gif" alt="lup" width="150px" height="150px">
+  </a>
+  <div class="desc">Lupus-Lupul</div>
+</div>
+	
+<div class="gallery">
+  <a target="_blank" href="images/orion-02.jpg">
+    <img src="images/orion-02.jpg" alt="orion" width="150px" height="150px">
+  </a>
+  <div class="desc">orion</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/peg.jpg">
+    <img src="images/peg.jpg" alt="pegasus" width="150px" height="150px">
+  </a>
+  <div class="desc">pegasus-Pegas</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/perseus.png">
+    <img src="images/perseus.png" alt="perseus" width="150px" height="150px">
+  </a>
+  <div class="desc">perseus-Perseu</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/ursa-mare.jpg">
+    <img src="images/ursa-mare.jpg" alt="ursa_major" width="150px" height="150px">
+  </a>
+  <div class="desc">ursa major-ursa mare</div>
+</div>
+
+
+<br><br>
+<div id="myDIV"><font color="white">Abonati-va pentru stiri si informatii utile!</font></div>
+<form id="myform">
+  <p><font color="white">Introduceti adresa de email:<br>
+  <input id="emailfield" type="text" name="T1" size="30" />
+  <input type="button" value="Ok" name="B1" onClick="parent.emailwindow.hide()" /></font></p>
+</form>
+
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Cautare">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+<!--mydiv pt abonare la news si cautare-->
+<!--
+<script type="text/javascript" 
+src="http://widgets.joeswebtools.com/moon-phases/javascript.php">
+</script>-->
+</BODY>
+</HTML>

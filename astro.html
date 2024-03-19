@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+
+<title>Detalii astronomice</title>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" 
+rel="stylesheet"> <!--link pt google fonts-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" >
+<link rel="shortcut icon" type="png" href="constellation.png">
+<link rel="shortcut icon" type="png" href="index.html">
+
+<link rel="stylesheet" href="style.css" >
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: 	 #b95f5f;
+  color: white;
+  font-size: 20px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: 	 #b95f5f;
+}
+
+<!---->
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: black;
+  opacity:1;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+</style>
+</HEAD>
+
+<BODY text="white">
+<!--header--> 
+<div class="header">
+<p1 class="dotted">Cutia cu astronomie</p1><br>
+<h1><b>Detalii astronomice</b></h1>
+
+</div>
+
+</header>
+<!--pana aici-->
+
+<IMG SRC="images/detal.png" ALT="cons" class="my_img" WIDTH=80 HEIGHT=60>
+
+<!--meniu-->
+<div class="navbar">
+  <a href="index.html">Acasa</a>
+  <a href="curiozitati.html">Curiozitati</a>
+  <div class="dropdown">
+    <button class="dropbtn">Constelatii 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tipuri_const.html">Tipuri</a>
+      <a href="imp_in_zodiac.html">Importanta in zodiac</a>
+      <a href="legende.html">Legendele zodiilor</a>
+    </div>
+  </div>
+<div class="dropdown">
+    <button class="dropbtn">Diverse
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+		<a href="stele.html">Stele</a>
+      <a href="astronomi-renumiti.html">Astronomi renumiti</a>
+      <a href="orientare.html">Orientare pe bolta cereasca</a>
+      <a href="harta.html">Harta cerului</a>
+	  <a href="astro.html">Detalii astronomice</a>
+    </div> 
+
+</div>
+<a href="quiz.html">Quiz</a>
+<a href="galerie.html">Galerie</a>
+</div>	
+<!--/meniu-->
+<br><br><br>
+
+<h1>Ramurile astronomiei</h1>
+<p>
+Astronomia este foarte vastă și de aceea astronomii se specializează în anumite ramuri ale astronomiei. De exemplu disciplina care studiază sistemul solar nu este aceeași cu disciplina care studiază stelele, iar cei care studiază Galaxia noastră (Calea Lactee), nu se folosesc de aceleași tehnici pe care le folosesc cei care studiază alte galaxii.</p>
+<ul>
+<li>Astrometrie– studiază poziția și distanța obiectelor cerești.</li>
+<li>Astrofizică– studiază fizica universului ( luminozitate, densitate, temperatură, compoziție chimică).
+<li>Cosmologie– studiază originea și evoluția universului la scară largă.</li>
+<li>Formarea galaxiilor și evoluția lor– studiază formarea și evoluția galaxiilor.</li>
+<li>Astronomie galactică– studiază structura și compoziția galaxiei noastre și a altor galaxii.</li>
+<li>Astronomie extragalactică– studiază obiectele (în special galaxiile) din afara galaxiei noastre..</li>
+<li>Astronomie stelară– se ocupă cu studiul stelelor..</li>
+<li>Evoluția stelară– studiază evoluția stelelor de la formare până la stingere..</li>
+<li>Formarea stelelor– studiază procesul și condițiile în care s-au format stelele (exoplanete)..</li>
+<li>Planetologie– studiază planetele din sistemul nostru solar și le compară cu sistemele planetare descoperite în ultimii ani în jurul altor stele..</li>
+<li>Astrobiologie– studiază evoluția sistemelor biologice în Univers.</li>
+</ul>
+
+<h1>3 planete misterioase</h1>
+<p>TrES-2b este o planeta  aflata la 750 ani lumina distanta fata de sistemul nostru solar.Din cate stim aceasta  cea mai intunecata planeta din intreg universul, reflectand mai putin de 1% din lumina.Acest lucru face ca planeta sa fie cu mult mai intunecata decat majoritatea planetelor.Masa și raza planetei indică faptul că acesta este un gigant de gaz cu o compoziție  similară cu cea a lui Jupiter. Spre deosebire de Jupiter, TrES-2b este situat foarte aproape de steaua sa, și aparține clasei de planete cunoscute sub numele de „hot Jupiter”.
+
+ 55 Cancri e a fost descoperita in 2004 si este numita”Super Earth” datorita faptului ca este de doua ori mai mare ca dimensiune ca planeta noastra si de 8 ori mai grea. Ce este interesant la aceasta planeta este faptul ca, pe langa grafit si alti silicati, componenta principala este diamantul. Este alcatuita din diamant cristalizat, cu 1/3-a masei sale fiind diamant pur.
+Gliese 436 b este o alta planeta fascinanta. Este de 20 de ori mai mare decat Pamantul, fiind aproximativ de dimensiunea lui Neptun. Planeta este la 4.3 milioane de mile departare de steaua sa (Pamantul este la 93 milioane de mile departare de Soare ). Temperatura acestei planete este de 822°F , iar suprafata ei este acoperita cu gheata care arde! Forta gravitationala imensa face ca gheata sa nu se evapore.</p>
+
+
+<div class="row">
+  <div class="column">
+    <img src="images/tres.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/super.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/gliese.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <center><img src="images/tres.jpg" style="width:50%"></center>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <center><img src="images/super.jpg" style="width:70%"></center>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <center><img src="images/gliese.jpg" style="width:70%"></center>
+    </div>
+    
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="images/tres.jpg" style="width:100%" onclick="currentSlide(1)" alt="TrES-2b">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/super.jpg" style="width:100%" onclick="currentSlide(2)" alt="Earth & Super Earth">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gliese.jpg" style="width:100%" onclick="currentSlide(3)" alt="Gliese-436-b">
+    </div>
+ 
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<!--newspapper-->
+<br><br>
+<div id="myDIV"><font color="white">Abonati-va pentru stiri si informatii utile!</font></div>
+<form id="myform">
+  <p><font color="white">Introduceti adresa de email:<br>
+  <input id="emailfield" type="text" name="T1" size="30" />
+  <input type="button" value="Ok" name="B1" onClick="parent.emailwindow.hide()" /></font></p>
+</form>
+
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Cautare">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+<!--mydiv pt abonare la news si cautare-->
+<!--
+<script type="text/javascript" 
+src="http://widgets.joeswebtools.com/moon-phases/javascript.php">
+</script>-->
+</BODY>
+</HTML>
